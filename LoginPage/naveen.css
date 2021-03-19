@@ -9,14 +9,21 @@ body{
 
 .naveen1
 {
+    border: none;
     margin-top:30px ;
     margin-left: 120px;   
 }
 
-.naveen2
+.naveen2 input[type="text"], input[type="password"]
 {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+
 background-color:white;
 margin-top: 220;
+outline: none;
+
 margin-left: 450;
 
 margin-bottom: 500;
@@ -25,3 +32,55 @@ height: 300;
 width:400px;
 }
 
+/* .login{
+
+    border: none;
+    outline: none;
+} */
+.login input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: calc(50%  - 50px);
+}
