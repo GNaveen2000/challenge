@@ -1,5 +1,5 @@
 .naveen{
-    color:blue;
+    color:rgb(221, 221, 224);
     margin-left: 500;
     text-transform: capitalize;
     margin-top:200;
@@ -7,7 +7,7 @@
 }
 .navi{
     
-    background: url(pic1.jpg);
+    background: url(naveen.jpg);
     background-position: center;
     background-size: cover;
     
@@ -22,12 +22,15 @@ margin-top:100
 }
 .naveen2{
     margin-left:500px ;
-}
-     .naveen1 input[type="text"], input[type="password"]
+    cursor: pointer;
+}    
+ .naveen1 input[type="text"], input[type="password"]
+
 {
     
         border: none;
         border-bottom: 1px solid #fff;
         background:transparent;
+        
     }
     
