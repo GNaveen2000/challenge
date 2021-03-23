@@ -1,0 +1,28 @@
+.naveen{
+    text-transform: capitalize;
+    text-align: center;
+    background:rgb(100,200,201);
+}
+body{
+    background-image: url(virat.jpg);
+    background-position: center;
+    background-size: cover;
+}.naveen ul{
+    display: inline-flex;
+    color:lawngreen;
+    color: white;
+}.naveen ul li{
+    margin-left: 100px;
+    color:white;
+}
+
+.submenu{
+    display:none;
+}
+.submenu ul li:hover .submenu{
+    display:block;
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
